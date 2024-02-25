@@ -12,12 +12,12 @@ export default function Header() {
     <nav className={isActive ? "active" : ""}>
       <img src="chabhi-logo.jpg" alt="chabi" className="logo" />
       <ul className="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Work</a>
-            <a href="#">Impact</a>
-            <a href="#">Blog</a>
-            <a href="#">Join Us</a>
+            <a href="header.jsx">Home</a>
+            <a href="header.jsx">Contact Us</a>
+            <a href="header.jsx">Work</a>
+            <a href="header.jsx">Impact</a>
+            <a href="header.jsx">Blog</a>
+            <a href="header.jsx">Join Us</a>
       </ul>
       <div className="burger" onClick={toggleMenu}>
         <div className="line1"></div>
