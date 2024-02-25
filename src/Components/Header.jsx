@@ -11,6 +11,7 @@ export default function Header() {
   return (
     <nav className={isActive ? "active" : ""}>
       <img src="chabhi-logo.jpg" alt="chabi" className="logo" />
+      <h4 id="title"> Chabi-Yan</h4>
       <ul className="nav-links">
             <a href="header.jsx">Home</a>
             <a href="header.jsx">Contact Us</a>
