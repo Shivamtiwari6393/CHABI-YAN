@@ -1,0 +1,18 @@
+
+.partner .images{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+
+.partner{
+    margin-top: 5px;
+}
+
+
+.partner .images {
+    margin-top: 30px;
+}
+.images img{
+    width: 15%;
+}
