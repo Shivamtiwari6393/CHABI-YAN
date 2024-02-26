@@ -1,0 +1,33 @@
+.imageblock {
+  display:flex;
+  width: 100%;
+  z-index: 1;
+  margin-top: 5px;
+  height: 40vw;
+}
+.imageblock p{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  width: 100%;
+}
+.images {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  width: 100vw;
+}
+
+.images img {
+  position: absolute;
+  width: 40vw;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.images .fadein {
+  opacity: 1;
+}
