@@ -13,7 +13,6 @@ nav {
   border-radius: 30px;
   background-color: #333;
   color: #fff;
-  box-shadow: 1px 0px 3px 3px rgba(0, 0, 0, 0.485);
 }
 
 .logo {
@@ -76,13 +75,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: left;
-    background-color: #333;
+    background-color: #3f3f3f;
     color: #fff;
   }
 
   .logo {
     width: 4rem;
-    margin-left: 4px;
+    margin-left: 10px;
   }
 
   .nav-links {
@@ -125,6 +124,7 @@ nav {
     color: rgb(136, 225, 225);
   }
   nav {
+    border-radius: 14px;
     padding: 5px;
     justify-content: space-between;
   }
@@ -133,7 +133,7 @@ nav {
     z-index: 2;
   }
   .logo {
-    margin-left: -2px;
+    margin-left: 0px;
   }
 
   .burger {
@@ -157,6 +157,9 @@ nav {
     margin: 5px;
     padding: 3px;
     margin-right: 0px;
+  }
+  .burger{
+    padding-right: 5px;
   }
 
   nav.active .burger .line1 {

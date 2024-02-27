@@ -7,7 +7,7 @@ export default function Partner() {
 
     <div className="images">
       <img src="kmclu-logo.png" alt="" />
-      <img src="lu-logo.jpg" alt="" />
+      <img src="lu-logo.png" alt="" />
       <img src="bbau-logo.png" alt="" />
       <img src="up-logo.png" alt="" />
     </div>

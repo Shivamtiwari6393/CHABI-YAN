@@ -1,8 +1,10 @@
-/* .partner{
-  background-color: rgb(238, 222, 222);
+.partner{
+  /* background-color: rgb(238, 222, 222); */
+  user-select: none;
 
-} */
+}
 .partner .images {
+    user-select: none;
   justify-content: space-evenly;
   display: flex;
   width: 100%;
