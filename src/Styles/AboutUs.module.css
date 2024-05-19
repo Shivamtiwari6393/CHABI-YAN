@@ -1,5 +1,5 @@
 .AboutUs {
-  margin: 20px;
+  margin: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 .AboutUs h2 {
   text-align: center;
   padding: 5px;
-  width: 80%;
+  width: 90%;
   text-align: center;
   background-color: rgb(124, 218, 236);
   color: white;
@@ -19,7 +19,7 @@
 
 .aboutText{
   background-color: rgb(124, 218, 236);
-    width: 70vw;
+    width: 95vw;
     margin-top: 20px;
     box-shadow: 1px 2px 3px 1px rgb(150, 150, 150);
     border-radius: 50px;
@@ -28,11 +28,11 @@
 
 .AboutUs p {
     color: white;
-  margin-top: 50px;
+  margin-top: 25px;
   text-align: center;
   font-weight: 500;
   font-size: small;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 25px 70px 25px 70px;
+  padding: 25px 25px 25px 25px;
 }

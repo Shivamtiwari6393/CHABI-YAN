@@ -24,21 +24,21 @@ export default function AboutUs() {
         </p>
 
         <p>
-          MISISON.
+          MISISON
           <br />
           <br />
           To advocate for the protection of child’ rights, to empower them and
           to expand their opportunities to reach their full potential.
           <br />
           <br />
-          VISION.
+          VISION
           <br />
           <br />
           To strive excellence towards attainment of sustainable development
           goals, peace and social progress.
           <br />
           <br />
-          CORE VALUES OF CHABI-YAN
+          CORE VALUES OF CHABI-YAN 
           <br />
           <br />
           Care, Respect, Accountability and Integrity.
