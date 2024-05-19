@@ -1,0 +1,19 @@
+.Projects{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Projects p{
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
+}
+.Projects img{
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}

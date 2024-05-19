@@ -9,6 +9,10 @@ import Home from './Components/Home';
 import Error from './Components/Error';
 import Disclaimer from './Components/Disclaimer';
 import GetInvolved from './Components/GetInvolved';
+import AboutUs from './Components/AboutUs';
+import Projects from './Components/Projects';
+import Team from './Components/Team';
+
 
 const route = createBrowserRouter([
   {
@@ -19,6 +23,21 @@ const route = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+
+      },
+      {
+        path: '/About-Us',
+        element: <AboutUs></AboutUs>
+
+      },
+      {
+        path: '/Projects',
+        element: <Projects></Projects>
+
+      },
+      {
+        path: '/Team',
+        element: <Team></Team>
 
       },
 

@@ -16,13 +16,12 @@ export default function Header() {
       <h4 id={style["title"]}> Chabi-Yan</h4>
       <div className={style["nav-links"]}>
         <Link to={"/"}>Home</Link>
-        <a href="/FCB.pdf" target="blank" rel="noopener noreferrer">About Us</a>
+        <Link to={"/About-Us"}>About Us</Link>
 
-        <Link to={"/getinvolved"}>
-          Get Invovled
-        </Link>
-        <Link>Projects</Link>
-        <a href="/work3.pdf" target="blank" rel="noopener noreferrer">Work</a>
+        <Link to={"/getinvolved"}>Get Invovled</Link>
+        <Link to={"/Projects"}>Projects</Link>
+        <Link>Work</Link>
+        <Link to={"/Team"}>Team</Link>
       </div>
 
       <div className={style["social-links"]}>
@@ -40,4 +39,3 @@ export default function Header() {
     </nav>
   );
 }
-

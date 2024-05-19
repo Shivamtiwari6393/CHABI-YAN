@@ -3,20 +3,23 @@ import styles from "../Styles/ChiefOfUnicef.module.css";
 export default function ChiefOfUnicef() {
   return (
     <>
+      <div className={styles["hashtag"]}>
+      <h4> # Be a Champian for every child</h4>
+      </div>
+
       <div className={styles["unicef"]}>
+
         <div className={styles["uniphoto"]}>
-          <img src="OIP.jpg" alt="Chief of Unicef" />
+          <img src="chief_unicef.jpg" alt="Chief of Unicef" />
           <p>Chief of Unicef U.P.</p>
         </div>
         <div className={styles["text"]}>
-          <p>
-            <q>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, a
-              minus perspiciatis id dolorem reiciendis aut architecto molestiae
-              deserunt incidunt soluta consectetur odio praesentium eligendi
-              nihil aliquam maxime labore. Quae.
-            </q>
-          </p>
+        <p>
+        "Advocacy is a key to social change, protection of rights and
+        empowerment of communities.This network of young gems (CHABI-YAN) will
+        be catalyst and powerful metaphor in unlocking potential of children,
+        empowering them and advocating for the protection of their rights."
+      </p>
         </div>
       </div>
     </>

@@ -20,7 +20,6 @@ export default function About() {
             Founded on World’ children day 20th November 2023.
             <br />
             <p>
-              {" "}
               CHABI-YAN's activities include on-ground interventions, policy
               recommendations, and social media campaigns. One of its goals is
               to create career pathways for young people by providing them with
@@ -32,6 +31,7 @@ export default function About() {
             </p>
           </p>
         </div>
+
       </div>
     </>
   );
