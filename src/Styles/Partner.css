@@ -1,22 +1,38 @@
-.partner{
+.partner {
   /* background-color: rgb(238, 222, 222); */
+  margin-top: 15px;
   user-select: none;
-
 }
+
+.partner h2 {
+  text-align: center;
+  color: rgb(124, 218, 236);
+  box-shadow: 0px 0px 5px grey;
+  margin: 5px;
+  border-radius: 30px;
+}
+
 .partner .images {
-    user-select: none;
-  justify-content: space-evenly;
+  user-select: none;
   display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.partner .images a {
+  width: 15%;
+  display: block; 
+}
+
+.partner .images a img {
   width: 100%;
 }
 
-.partner {
-  margin-top: 5px;
+.partner .images a:hover img {
+  transform: scale(1.01);
 }
 
-.partner .images {
-  margin-top: 30px;
-}
-.images img {
-  width: 15%;
+.links a:hover {
+  transform: scale(1.1);
 }

@@ -1,0 +1,46 @@
+.work {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.work h2 {
+  color: rgb(124, 218, 236);
+  box-shadow: 0px 0px 5px grey;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.imageblock {
+  user-select: none;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  margin-top: 20px;
+  height: 40vw;
+}
+
+.images {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.images img {
+  justify-content: center;
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.images .fadein {
+  opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+  .imageblock {
+    margin-top: 10px;
+  }
+}

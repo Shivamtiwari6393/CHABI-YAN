@@ -1,0 +1,13 @@
+.Disclaimer h4{
+    text-align: center;
+    margin: 10px 0px;
+}
+.Disclaimer h2{
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+    color: rgb(124, 218, 236);
+}
+
+.Disclaimer p{
+    padding: 0px 30px;
+}

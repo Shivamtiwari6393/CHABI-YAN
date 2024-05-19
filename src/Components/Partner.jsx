@@ -1,16 +1,16 @@
-import React from 'react'
-import "../Styles/Partner.css"
+import React from "react";
+import "../Styles/Partner.css";
 export default function Partner() {
   return (
     <div className="partner">
-    <h4>Our Partners :</h4>
+      <h2>Our Partners</h2>
 
-    <div className="images">
-      <img src="kmclu-logo.png" alt="" />
-      <img src="lu-logo.png" alt="" />
-      <img src="bbau-logo.png" alt="" />
-      <img src="up-logo.png" alt="" />
+      <div className="images">
+        <a href="https://kmclu.ac.in/"><img src="kmclu-logo.png" alt="" /></a>
+        <a href="https://www.lkouniv.ac.in/"><img src="lu-logo.png" alt="" /></a>
+        <a href="https://www.bbau.ac.in/"><img src="bbau-logo.png" alt="" /></a>
+        <a href="https://dsmru.up.nic.in/"><img src="up-logo.png" alt="" /></a>
+      </div>
     </div>
-  </div>
-  )
+  );
 }
