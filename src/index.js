@@ -12,6 +12,7 @@ import GetInvolved from './Components/GetInvolved';
 import AboutUs from './Components/AboutUs';
 import Projects from './Components/Projects';
 import Team from './Components/Team';
+import Work from './Components/Swork';
 
 
 const route = createBrowserRouter([
@@ -36,23 +37,27 @@ const route = createBrowserRouter([
 
       },
       {
+        path: '/Work',
+        element: <Work></Work>
+      },
+      {
         path: '/Team',
         element: <Team></Team>
 
       },
 
       {
-        path: '/privacy-policy',
+        path: '/Privacy-Policy',
         element: <PrivacyPolicy></PrivacyPolicy>
 
       },
       {
-        path: '/disclaimer',
+        path: '/Disclaimer',
         element: <Disclaimer></Disclaimer>
       },
 
       {
-        path: '/getinvolved',
+        path: '/Get-Involved',
         element: <GetInvolved></GetInvolved>
       }
     ],

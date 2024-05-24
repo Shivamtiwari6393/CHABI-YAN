@@ -49,3 +49,22 @@
     }
 
 }
+
+
+@media screen and (max-width: 300px) {
+
+    .uniphoto img{
+        width: 250px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 250px) {
+
+    .uniphoto img{
+        width: 200px;
+    
+    }
+    
+}

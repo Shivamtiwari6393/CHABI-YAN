@@ -15,20 +15,30 @@ export default function Work(props) {
     <>
       <div className={styles["work"]}>
         <h2>Work </h2>
-          <div className={styles.imageblock}>
-            <div className={styles.images}>
-              {props.images.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  alt=""
-                  className={
-                    index === currentIndex ? styles.fadein : styles[""]
-                  }
-                />
-              ))}
-            </div>
+        <div className={styles.imageblock}>
+          <div className={styles["worktext"]}>
+          <div className={styles.images}>
+            {props.images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt=""
+                className={index === currentIndex ? styles.fadein : styles[""]}
+              />
+            ))}
           </div>
+          </div>
+          <div className={styles.images}>
+            {props.images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt=""
+                className={index === currentIndex ? styles.fadein : styles[""]}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );

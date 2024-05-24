@@ -18,9 +18,9 @@ export default function Header() {
         <Link to={"/"}>Home</Link>
         <Link to={"/About-Us"}>About Us</Link>
 
-        <Link to={"/getinvolved"}>Get Invovled</Link>
+        <Link to={"/Get-Involved"}>Get Invovled</Link>
         <Link to={"/Projects"}>Projects</Link>
-        <Link>Work</Link>
+        <Link to={'/Work'}>Work</Link>
         <Link to={"/Team"}>Team</Link>
       </div>
 

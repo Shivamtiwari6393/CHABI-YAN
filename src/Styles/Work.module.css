@@ -12,25 +12,36 @@
 }
 
 .imageblock {
+  margin: 0 auto;
   user-select: none;
   display: flex;
-  width: 100%;
+  justify-content:center;
+  width: 94vw;
   z-index: 1;
   margin-top: 20px;
-  height: 40vw;
+  height: 35vw;
+
+}
+.worktext {
+  margin-right: 2vw;
+  width: 40%;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.worktext .images{
+   width: 100%;
 }
 
 .images {
-  justify-content: center;
-  width: 100%;
+  width: 40%;
   display: flex;
   position: relative;
 }
 .images img {
-  justify-content: center;
   position: absolute;
-  width: 40vw;
-  height: 40vw;
+  width: 100%;
+  height: 35vw;
   border-radius: 10px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
