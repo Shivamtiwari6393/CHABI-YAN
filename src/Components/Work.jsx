@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import styles from "../Styles/Work.module.css";
 
 export default function Work(props) {
-  console.log(props);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
