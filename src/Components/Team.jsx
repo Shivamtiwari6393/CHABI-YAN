@@ -51,7 +51,7 @@ export default function Team() {
           <div className={style["card-name"]}>Mohd Rizwanul Hasan</div>
         </div>{" "}
         <div className={style["card"]}>
-          <img src="st3copy.jpg" class={style["card-image"]} alt="98"></img>
+          <img src="st.jpg" class={style["card-image"]} alt="98"></img>
           <div className={style["card-name"]}>Shivam Tiwari</div>
         </div>{" "}
         <div className={style["card"]}>
