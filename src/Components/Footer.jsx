@@ -11,11 +11,11 @@ export default function Footer() {
         <Link to={"/Disclaimer"}>Disclaimer</Link>
       </div>
       <div className="links">
-        <a href="header.jsx" className="fa fa-facebook"></a>
-        <a href="header.jsx" className="fa fa-twitter"></a>
-        <a href="header.jsx" className="fa fa-linkedin"></a>
-        <a href="header.jsx" className="fa fa-whatsapp"></a>
-        <a href="header.jsx" className="fa fa-telegram"></a>
+        <a href="/" className="fa fa-facebook"></a>
+        <a href="/" className="fa fa-twitter"></a>
+        <a href="/" className="fa fa-linkedin"></a>
+        <a href="/" className="fa fa-whatsapp"></a>
+        <a href="/" className="fa fa-telegram"></a>
       </div>
     </div>
   );
