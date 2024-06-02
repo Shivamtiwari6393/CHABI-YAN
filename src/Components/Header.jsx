@@ -23,7 +23,7 @@ export default function Header() {
       <h4 id={style["title"]}> Chabi-Yan</h4>
       <div className={style["nav-links"]}>
         <Link to={"/"} onClick={closeMenu}>
-          Home  <img src="./home.png" alt="" />
+          Home 
         </Link>
         <Link to={"/About-Us"} onClick={closeMenu}>
           About Us
