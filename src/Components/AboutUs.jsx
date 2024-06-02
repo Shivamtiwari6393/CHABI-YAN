@@ -3,7 +3,7 @@ import style from "../Styles/AboutUs.module.css";
 export default function AboutUs() {
   return (
     <div className={style["AboutUs"]}>
-      <h2>Chabi-Yan</h2>
+      <h4>Chabi-Yan</h4>
       <div className={style["aboutText"]}>
         <p>
           Children’s Hope for Action & Better Impact-Youth Advocacy Network
@@ -38,7 +38,7 @@ export default function AboutUs() {
           goals, peace and social progress.
           <br />
           <br />
-          CORE VALUES OF CHABI-YAN 
+          CORE VALUES OF CHABI-YAN
           <br />
           <br />
           Care, Respect, Accountability and Integrity.
@@ -51,7 +51,6 @@ export default function AboutUs() {
           organized and formalized manner.
         </p>
       </div>
-
     </div>
   );
 }

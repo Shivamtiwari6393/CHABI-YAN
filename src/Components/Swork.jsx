@@ -8,7 +8,7 @@ export default function Swork(){
         <div className="Swork">
 
             <h2 style={hstyle}>
-                कार्य प्रगति पर है । धन्यवाद  
+                Work in Progress | Thank You
             </h2>
         </div>
     )

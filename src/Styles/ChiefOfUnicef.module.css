@@ -14,6 +14,7 @@
 .unicef> div> p{
   padding-left: 20px;
   font-weight: bold;
+  font-style: italic;
 }
 
 .uniphoto img{

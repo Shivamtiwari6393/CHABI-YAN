@@ -4,9 +4,9 @@ export default function Disclaimer() {
     <div className={style["Disclaimer"]}>
       <h2>Disclaimer</h2>
       <p>
-        Welcome to Chabi-Yan, an informational website designed for children
-        and the general public. Please read this disclaimer carefully before
-        using our website
+        Welcome to Chabi-Yan, an informational website designed for children and
+        the general public. Please read this disclaimer carefully before using
+        our website
       </p>
 
       <h4>Nature of Website</h4>
@@ -43,11 +43,11 @@ export default function Disclaimer() {
             information presented on our website. However, we cannot guarantee
             the completeness, accuracy, or timeliness of the content. Users are
             encouraged to verify any information obtained from this website
-            before making decisions or taking actions based on it. 
+            before making decisions or taking actions based on it.
           </li>
           <li>
-          External Links: Our website may contain links to external websites or
-            resources for additional information. We do not endorse or take
+            External Links: Our website may contain links to external websites
+            or resources for additional information. We do not endorse or take
             responsibility for the content, accuracy, or reliability of any
             third-party websites linked from our site.
           </li>

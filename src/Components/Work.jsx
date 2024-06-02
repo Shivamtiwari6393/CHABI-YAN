@@ -14,19 +14,21 @@ export default function Work(props) {
   return (
     <>
       <div className={styles["work"]}>
-        <h2>Work </h2>
+        <h3>Work </h3>
         <div className={styles.imageblock}>
           <div className={styles["worktext"]}>
-          <div className={styles.images}>
-            {props.vcc.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt=""
-                className={index === currentIndex ? styles.fadein : styles[""]}
-              />
-            ))}
-          </div>
+            <div className={styles.images}>
+              {props.vcc.map((image, index) => (
+                <img
+                  key={index}
+                  src={image}
+                  alt=""
+                  className={
+                    index === currentIndex ? styles.fadein : styles[""]
+                  }
+                />
+              ))}
+            </div>
           </div>
           <div className={styles.images}>
             {props.images.map((image, index) => (

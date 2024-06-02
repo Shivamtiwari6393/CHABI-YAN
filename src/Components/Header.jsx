@@ -7,21 +7,40 @@ export default function Header() {
   const [isActive, setIsActive] = useState(false);
 
   const toggleMenu = () => {
-    setIsActive(!isActive);
+    if (isActive) {
+      setIsActive(false);
+    } else {
+      setIsActive(true);
+    }
+  };
+  const closeMenu = () => {
+    setIsActive(false);
   };
 
   return (
     <nav className={isActive ? style["active"] : style[""]}>
-      <img src="chabhi-logo.png" alt="chabi" className={style["logo"]} />
+      <img src="chabi-logo.png" alt="chabi" className={style["logo"]} />
       <h4 id={style["title"]}> Chabi-Yan</h4>
       <div className={style["nav-links"]}>
-        <Link to={"/"}>Home</Link>
-        <Link to={"/About-Us"}>About Us</Link>
+        <Link to={"/"} onClick={closeMenu}>
+          Home  <img src="./home.png" alt="" />
+        </Link>
+        <Link to={"/About-Us"} onClick={closeMenu}>
+          About Us
+        </Link>
 
-        <Link to={"/Get-Involved"}>Get Invovled</Link>
-        <Link to={"/Projects"}>Projects</Link>
-        <Link to={'/Work'}>Work</Link>
-        <Link to={"/Team"}>Team</Link>
+        <Link to={"/Get-Involved"} onClick={closeMenu}>
+          Get Invovled
+        </Link>
+        <Link to={"/Projects"} onClick={closeMenu}>
+          Projects
+        </Link>
+        <Link to={"/Work"} onClick={closeMenu}>
+          Work
+        </Link>
+        <Link to={"/Team"} onClick={closeMenu}>
+          Team
+        </Link>
       </div>
 
       <div className={style["social-links"]}>
