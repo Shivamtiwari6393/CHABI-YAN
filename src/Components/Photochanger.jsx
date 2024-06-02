@@ -19,7 +19,7 @@ export default function Photochanger(prop) {
           <img
             key={index}
             src={photo}
-            alt=""
+            alt="work"
             className={index === currentIndex ? "fade-in" : ""}
           />
         ))}

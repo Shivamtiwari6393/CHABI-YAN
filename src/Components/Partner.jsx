@@ -7,16 +7,16 @@ export default function Partner() {
 
       <div className="images">
         <a href="https://kmclu.ac.in/">
-          <img src="kmclu-logo.png" alt="" />
+          <img src="kmclu-logo.png" alt="kmc language university" />
         </a>
         <a href="https://www.lkouniv.ac.in/">
-          <img src="lu-logo.png" alt="" />
+          <img src="lu-logo.png" alt="lucknow university" />
         </a>
         <a href="https://www.bbau.ac.in/">
-          <img src="bbau-logo.png" alt="" />
+          <img src="bbau-logo.png" alt=" bba university" />
         </a>
         <a href="https://dsmru.up.nic.in/">
-          <img src="up-logo.png" alt="" />
+          <img src="up-logo.png" alt="dsmr university" />
         </a>
       </div>
     </div>
