@@ -22,26 +22,26 @@ export default function AboutUs() {
           government agencies, and private organizations to achieve its vision
           of a better future for India's youth .
         </p>
-
         <p>
-          MISISON
+          <h4>MISSION</h4>
           <br />
           <br />
           To advocate for the protection of child’ rights, to empower them and
           to expand their opportunities to reach their full potential.
           <br />
           <br />
-          VISION
+          <h4> VISION</h4>
           <br />
           <br />
           To strive excellence towards attainment of sustainable development
           goals, peace and social progress.
           <br />
           <br />
-          CORE VALUES OF CHABI-YAN
-          <br />
+          <h4>CORE VALUES OF CHABI-YAN</h4>
           <br />
           Care, Respect, Accountability and Integrity.
+          <br />
+          <br />
           <br />
           <br />
           Mission and vision statement of organization plays a pioneering role

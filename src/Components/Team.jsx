@@ -5,7 +5,7 @@ export default function Team() {
       <div className={style["coordinator"]}>
         <h4>Coordinator</h4>
         <div className={style["card"]}>
-          <img src="fahad.jpeg" class={style["card-image"]} alt="fahad"></img>
+          <img src="fahad.jpeg" className={style["card-image"]} alt="fahad"></img>
           <div className={style["card-name"]}>Fahad Jamal</div>
         </div>
       </div>
@@ -16,7 +16,7 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="stfayyaz.jpeg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="sayed talha fayyaz"
           ></img>
           <div className={style["card-name"]}>Sayed Talha Fayyaz</div>
@@ -24,7 +24,7 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="afaizyab.jpeg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="Arisha Faizyab"
           ></img>
           <div className={style["card-name"]}>Arisha Faizyab</div>
@@ -32,7 +32,7 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="Bfatima.jpeg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="Bushra Fatima"
           ></img>
           <div className={style["card-name"]}>Bushra Fatima</div>
@@ -40,7 +40,7 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="Mfiroz.jpeg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="Mohd Firoz"
           ></img>
           <div className={style["card-name"]}>Mohd Firoz</div>
@@ -48,7 +48,7 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="mbano.jpeg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="Mubasshira Bano"
           ></img>
           <div className={style["card-name"]}>Mubasshira Bano</div>
@@ -61,7 +61,7 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="devendra.jpeg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="Devender Kumar"
           ></img>
           <div className={style["card-name"]}>Devender Kumar</div>
@@ -69,7 +69,7 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="image Junaid.jpg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="Junaid Ali Rayee"
           ></img>
           <div className={style["card-name"]}>Junaid Ali Rayee</div>
@@ -77,17 +77,17 @@ export default function Team() {
         <div className={style["card"]}>
           <img
             src="md rizwanul.jpeg"
-            class={style["card-image"]}
+            className={style["card-image"]}
             alt="Mohd Rizwanul Hasan"
           ></img>
           <div className={style["card-name"]}>Mohd Rizwanul Hasan</div>
         </div>
         <div className={style["card"]}>
-          <img src="st.jpg" class={style["card-image"]} alt="Shivam Tiwari"></img>
+          <img src="st.jpg" className={style["card-image"]} alt="Shivam Tiwari"></img>
           <div className={style["card-name"]}>Shivam Tiwari</div>
         </div>
         <div className={style["card"]}>
-          <img src="shahil.jpeg" class={style["card-image"]} alt="Sahil Siddique"></img>
+          <img src="shahil.jpeg" className={style["card-image"]} alt="Sahil Siddique"></img>
           <div className={style["card-name"]}>Sahil Siddique</div>
         </div>
       </div>

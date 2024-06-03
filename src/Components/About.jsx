@@ -18,6 +18,7 @@ export default function About() {
             reach their full potential. YAN ’s on-ground interventions are
             complemented with advocacy efforts and policy recommendations.
             Founded on World’ children day 20th November 2023.
+            </p>
             <br />
             <p>
               CHABI-YAN's activities include on-ground interventions, policy
@@ -29,7 +30,6 @@ export default function About() {
               organizations to achieve its vision of a better future for India's
               youth .
             </p>
-          </p>
         </div>
       </div>
     </>

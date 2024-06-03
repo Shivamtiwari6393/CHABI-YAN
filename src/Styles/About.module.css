@@ -3,6 +3,10 @@
   user-select: none;
 }
 
+.sec1 img {
+  margin-left: 1vw;
+}
+
 .sec2 {
   text-align: center;
   overflow: scroll;
@@ -28,22 +32,16 @@ h4 {
 @media screen and (max-width: 850px) {
   .about {
     flex-direction: column;
-
   }
 
-  .sec1 {
-    width: 100%;
-  }
-
-  .sec1 img{
-    margin-left:2vw;
+  .sec1 img {
+    margin-left: 2vw;
   }
 
   .sec2 {
     overflow: scroll;
     height: auto;
     padding: 10px;
-
   }
 
   h4 {
@@ -56,7 +54,6 @@ h4 {
     font-size: small;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
     padding: 5px 0px 0px 2px;
   }
 }

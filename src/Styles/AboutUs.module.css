@@ -17,22 +17,33 @@
   box-shadow: 1px 2px 3px 1px grey;
 }
 
-.aboutText{
+.aboutText {
   background-color: rgb(124, 218, 236);
-    width: 95vw;
-    margin-top: 20px;
-    box-shadow: 1px 2px 3px 1px rgb(150, 150, 150);
-    border-radius: 50px;
-
+  width: 95vw;
+  margin-top: 20px;
+  box-shadow: 1px 2px 3px 1px rgb(150, 150, 150);
+  border-radius: 50px;
+}
+.aboutText h4{
+  box-shadow: none;
+  width: 100%;
 }
 
 .AboutUs p {
-    color: white;
-  margin-top: 25px;
+  color: white;
+  margin-top: 15px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   font-size: small;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 25px 25px 25px 25px;
+}
+
+hr{
+  margin: 5px auto;
+  background-color: white;
+  height: 1px;
+  border: none;
+  width: 15rem;
 }

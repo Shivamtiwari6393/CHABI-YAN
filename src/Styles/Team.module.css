@@ -1,14 +1,9 @@
-.Team {
-  margin: 0;
-}
-
 .Team .coordinator {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 
 .Team .coremembers {
   display: flex;
@@ -27,9 +22,6 @@
 
 .card {
   max-width: 250px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
   box-shadow: 0 4px 8px #0000001a;
   background-color: #fff;
 }
@@ -40,8 +32,8 @@
 }
 
 .card-name {
-  padding: 5px;
-  font-size: 11px;
+  padding: 4px;
+  font-size: 10px;
   font-weight: bold;
   text-align: center;
   background-color: #fff;
@@ -49,20 +41,15 @@
 }
 
 @media screen and (max-width: 1300px) {
-
-.Team .coordinator .card{
-        width: 200px;
-       }
-  .Team .coremembers .card {
-    width: 20vw;
+  .Team .coordinator .card {
+    width: 200px;
   }
   .Team .coremembers .card {
-    margin: 5px;
+    width: 20vw;
+    margin: 2px;
   }
   .Team .clubmembers .card {
     width: 20vw;
-  }
-  .Team .clubmembers .card {
-    margin: 5px;
+    margin: 2px;
   }
 }

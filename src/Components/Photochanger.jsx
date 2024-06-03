@@ -3,7 +3,6 @@ import "../Styles/Photochanger.css";
 
 export default function Photochanger(prop) {
   const [currentIndex, setCurrentIndex] = useState(0);
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % prop.photos.length);
