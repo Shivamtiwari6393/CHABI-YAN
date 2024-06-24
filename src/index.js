@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import PrivacyPolicy from './Components/PrivacyPolicy';
+// import PrivacyPolicy from './Components/PrivacyPolicy';
 import Home from './Components/Home';
 import Error from './Components/Error';
-import Disclaimer from './Components/Disclaimer';
-import GetInvolved from './Components/GetInvolved';
-import AboutUs from './Components/AboutUs';
-import Projects from './Components/Projects';
-import Team from './Components/Team';
-import Work from './Components/Swork';
+// import Disclaimer from './Components/Disclaimer';
+// import GetInvolved from './Components/GetInvolved';y
+// import AboutUs from './Components/AboutUs';
+// import Projects from './Components/Projects';
+// import Team from './Components/Team';
+// import Work from './Components/Swork';
+
+const AboutUs = lazy(()=> import ('./Components/AboutUs'))
+const Projects = lazy(()=> import ('./Components/Projects'))
+const Work = lazy(()=> import ('./Components/Swork'))
+const Team = lazy(()=> import ('./Components/Team'))
+const PrivacyPolicy = lazy(()=> import ('./Components/PrivacyPolicy'))
+const Disclaimer = lazy(()=> import ('./Components/Disclaimer'))
+const GetInvolved = lazy(()=> import ('./Components/GetInvolved'))
+
 
 
 const route = createBrowserRouter([

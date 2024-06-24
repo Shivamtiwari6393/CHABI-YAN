@@ -6,4 +6,5 @@
 body{
     background-color: rgb(232, 255, 255);
     font-family: "Roboto",Arial;
+    scroll-behavior: smooth;
 }
