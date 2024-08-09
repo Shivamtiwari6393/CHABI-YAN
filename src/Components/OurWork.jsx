@@ -1,4 +1,4 @@
-export default function Swork() {
+export default function OurWork() {
   const hstyle = {
     marginTop: "30px",
     height: "70vh",

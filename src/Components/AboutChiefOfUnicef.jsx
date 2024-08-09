@@ -1,8 +1,8 @@
-import styles from "../Styles/ChiefOfUnicef.module.css";
+import styles from "../Styles/AboutChiefOfUnicef.module.css";
 
-export default function ChiefOfUnicef() {
+export default function AboutChiefOfUnicef() {
   return (
-    <>
+    <div className="aboutcheifofunicef">
       <div className={styles["hashtag"]}>
         <h4> # Be a Champian for every child</h4>
       </div>
@@ -21,6 +21,6 @@ export default function ChiefOfUnicef() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

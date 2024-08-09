@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "../Styles/Photochanger.css";
+import "../Styles/Carousel.css";
 
-export default function Photochanger(prop) {
+export default function Carousel(prop) {
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -12,7 +12,8 @@ export default function Photochanger(prop) {
   }, [prop.photos.length]);
 
   return (
-    <div className="photo-section">
+<div className="carousel">
+<div className="photo-section">
       <div className="photos">
         {prop.photos.map((photo, index) => (
           <img
@@ -24,5 +25,6 @@ export default function Photochanger(prop) {
         ))}
       </div>
     </div>
+</div>
   );
 }

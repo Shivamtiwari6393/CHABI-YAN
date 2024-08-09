@@ -1,6 +1,6 @@
 import React from "react";
-import "../Styles/Partner.css";
-export default function Partner() {
+import "../Styles/Partners.css";
+export default function Partners() {
   return (
     <div className="partner">
       <h3>Our Partners</h3>

@@ -1,7 +1,7 @@
 import About from "./About";
-import ChiefOfUnicef from "./ChiefOfUnicef";
+import ChiefOfUnicef from "./AboutChiefOfUnicef";
 import Work from "./Work";
-import Partner from "./Partner";
+import Partner from "./Partners";
 const childRight = [
   "work1.jpeg",
   "unicef_work3.jpg",
@@ -19,7 +19,7 @@ const vcc = [
 ];
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <About></About>
       <ChiefOfUnicef></ChiefOfUnicef>
       <Work images={childRight} vcc={vcc}></Work>

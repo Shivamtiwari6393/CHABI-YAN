@@ -5,7 +5,11 @@ export default function Team() {
       <div className={style["coordinator"]}>
         <h4>Coordinator</h4>
         <div className={style["card"]}>
-          <img src="fahad.jpeg" className={style["card-image"]} alt="fahad"></img>
+          <img
+            src="fahad.jpeg"
+            className={style["card-image"]}
+            alt="fahad"
+          ></img>
           <div className={style["card-name"]}>Fahad Jamal</div>
         </div>
       </div>
@@ -83,11 +87,19 @@ export default function Team() {
           <div className={style["card-name"]}>Mohd Rizwanul Hasan</div>
         </div>
         <div className={style["card"]}>
-          <img src="st.jpg" className={style["card-image"]} alt="Shivam Tiwari"></img>
+          <img
+            src="st.jpg"
+            className={style["card-image"]}
+            alt="Shivam Tiwari"
+          ></img>
           <div className={style["card-name"]}>Shivam Tiwari</div>
         </div>
         <div className={style["card"]}>
-          <img src="shahil.jpeg" className={style["card-image"]} alt="Sahil Siddique"></img>
+          <img
+            src="shahil.jpeg"
+            className={style["card-image"]}
+            alt="Sahil Siddique"
+          ></img>
           <div className={style["card-name"]}>Sahil Siddique</div>
         </div>
       </div>

@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from "react";
-import style from "../Styles/Header.module.css";
+import style from "../Styles/Navbar.module.css";
 import { Link } from "react-router-dom";
 
-export default function Header() {
+export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
 
   const toggleMenu = () => {
@@ -18,12 +18,12 @@ export default function Header() {
   };
 
   return (
-    <nav className={isActive ? style["active"] : style[""]}>
-      <img src="chabi-logo.png" alt="chabi" className={style["logo"]} />
+    <nav className={isActive ? style["active"] : style["navbar"]}>
+      <img src="chabi-logo.png" alt="chabi logo" className={style["logo"]} />
       <h4 id={style["title"]}> Chabi-Yan</h4>
       <div className={style["nav-links"]}>
         <Link to={"/"} onClick={closeMenu}>
-          Home 
+          Home
         </Link>
         <Link to={"/About-Us"} onClick={closeMenu}>
           About Us
