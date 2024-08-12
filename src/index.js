@@ -5,15 +5,15 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Error from './Components/Error';
 
-const App = lazy(()=> import ('./App'))
-const Home = lazy(()=> import ('./Components/Home'))
-const AboutUs = lazy(()=> import ('./Components/AboutUs'))
-const Projects = lazy(()=> import ('./Components/Projects'))
-const Work = lazy(()=> import ('./Components/OurWork'))
-const Team = lazy(()=> import ('./Components/Team'))
-const PrivacyPolicy = lazy(()=> import ('./Components/PrivacyPolicy'))
-const Disclaimer = lazy(()=> import ('./Components/Disclaimer'))
-const GetInvolved = lazy(()=> import ('./Components/GetInvolved'))
+import App from "./App"
+const Home = lazy(() => import('./Components/Home'))
+const AboutUs = lazy(() => import('./Components/AboutUs'))
+const Projects = lazy(() => import('./Components/Projects'))
+const Work = lazy(() => import('./Components/OurWork'))
+const Team = lazy(() => import('./Components/Team'))
+const PrivacyPolicy = lazy(() => import('./Components/PrivacyPolicy'))
+const Disclaimer = lazy(() => import('./Components/Disclaimer'))
+const GetInvolved = lazy(() => import('./Components/GetInvolved'))
 
 
 
@@ -21,7 +21,7 @@ const route = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement : <Error></Error>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: '/',

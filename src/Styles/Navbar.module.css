@@ -106,13 +106,14 @@ nav {
   /* ---------------logo ----------------------- */
   .logo {
     margin-left: 8px;
+    border-radius: 1px;
   }
 
   /* -----------title---------------------- */
 
   #title {
     padding: 0px;
-    display: block;
+    /* display: block; */
     color: rgb(255, 255, 255);
   }
 
@@ -138,12 +139,10 @@ nav {
 
   nav.active .burger .line2 {
     width: 50%;
-
   }
 
   nav.active .burger .line3 {
     width: 50%;
-    
   }
   /*   -------------------nav => active => links ------------------------------ */
 

@@ -20,8 +20,8 @@
 .uniphoto img{
     width: 300px;
     margin: 5px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 2px 2px rgb(92, 92, 92);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px 0px rgb(111, 111, 111);
 
 }
 .uniphoto > p{
@@ -37,6 +37,8 @@
 }
 
 .uniphoto > p{
+  background-color: rgb(124, 218, 236);
+
     text-align: center;
 }
 
