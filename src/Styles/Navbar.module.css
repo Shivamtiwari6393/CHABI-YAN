@@ -7,7 +7,7 @@ nav {
   margin: 2px 2px;
   padding: 5px;
   border: none;
-  border-radius: 30px;
+  border-radius: 5px;
   background-color: rgb(0, 173, 239);
   color: #fff;
   font-weight: 600;
@@ -67,7 +67,7 @@ nav {
   height: 2px;
   background-color: #fff;
   margin: 2px;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 /* ====================== devices width < 850px =========================================== */
@@ -94,7 +94,7 @@ nav {
   /* --------------------------nav bar ---------------------- */
 
   nav {
-    border-radius: 14px;
+    border-radius: 5px;
     padding: 5px;
   }
 
@@ -156,7 +156,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 90%;
     background-color: rgba(0, 175, 239, 0.797);
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   nav.active .nav-links a {
