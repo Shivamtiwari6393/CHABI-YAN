@@ -86,6 +86,6 @@ p h4 {
 
 @media screen and (max-width: 400px) {
   .aboutText {
-    border-radius: 30px;
+    border-radius: 5px;
   }
 }

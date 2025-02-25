@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="footer">
-      <div id="one"> ©️ 2024 All Right Reserved</div>
+      {/* <div id="one">2024 All Right Reserved</div> */}
       <div className="privacy-policy">
         <Link to={"Privacy-Policy"}>Privacy Policy</Link>|
         <Link to={"/Disclaimer"}>Disclaimer</Link>

@@ -35,9 +35,9 @@ export default function Navbar() {
         <Link to={"/Projects"} onClick={closeMenu}>
           Projects
         </Link>
-        <Link to={"/Work"} onClick={closeMenu}>
+        {/* <Link to={"/Work"} onClick={closeMenu}>
           Work
-        </Link>
+        </Link> */}
         <Link to={"/Team"} onClick={closeMenu}>
           Team
         </Link>

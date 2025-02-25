@@ -13,6 +13,7 @@
   scrollbar-width: none;
   padding: 5px;
   height: 26vw;
+  margin-left: 10px;
 }
 
 h4 {
@@ -42,6 +43,7 @@ h4 {
     overflow: scroll;
     height: auto;
     padding: 10px;
+    margin: 0px;
   }
 
   h4 {
